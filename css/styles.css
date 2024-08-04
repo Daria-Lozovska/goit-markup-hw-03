@@ -14,7 +14,6 @@ body {
 
 a {
         text-decoration: none;
-        display: block;
 }
 
 ul, ol {
@@ -60,6 +59,7 @@ img {
 .page-nav {
         display: flex;
         align-items: center;
+        gap: 40px;
 }
 
 .page-contact {
@@ -121,12 +121,10 @@ img {
 }
 
 /* SECTION 1 MAIN */
-.container > .page-hero {
-        min-width: 1128px;
-        min-height: 600px;
+.page-hero {
         display: flex;
+        align-items: center;
 }
-
 
 .section-one {
         background-color: #2e2f42;
@@ -138,14 +136,8 @@ img {
         letter-spacing: 0.02em;
         text-align: center;
         color: #ffffff;
-
-        display: flex;
-        justify-content: center;
-        padding-top: 188px ;
-        padding-bottom: 292px ;
-        padding-right: auto ;
-        padding-left: auto ;
-
+        padding-top: 188px;
+        padding-bottom: 48px;
 }
 
 
@@ -158,15 +150,10 @@ img {
             color: #ffffff;
             background-color: #4D5AE5;
 
-        display: flex;
-                max-width: 168px;
-                max-height: 56px;
-                display: flex;
-                border-radius: 4px;
-                border: none;
-                /* padding-top: 356px;
-                padding-bottom: 188px; */
-                justify-content: center;
+        border-radius: 4px;
+        padding: 16px 32px;
+        width: 169px;
+        align-items: center;
 }
 
 .button-main:focus,
@@ -176,27 +163,11 @@ img {
 }
 
 /* SECTION 2 ABOUT */
-.page-about {
-        display: flex;
-        max-width: 1128px;
-}
 
 .about-text {
         visibility: hidden;
 }
-
-.about-ul {
-        display: flex;
-        width: calc((100% - 3 * 24px)/ 4);
-        gap: 24px;
-        justify-content: center;
-        flex-basis: 264px;
-        flex-wrap: wrap;
-        flex-direction: row;
-        padding-left: 156px;
-}
         
-
 .name-about {
         font-weight: 500;
         font-size: 20px;
