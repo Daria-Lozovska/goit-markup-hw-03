@@ -14,18 +14,17 @@ body {
 
 a {
         text-decoration: none;
+        display: block;
 }
 
 ul, ol {
         list-style: none;
-        margin-top: 0;
-        margin-bottom: 0;
-        padding-left: 0;
+        margin: 0;
+        padding: 0;
 }
 
 h1,h2,h3,h4,h5,h6 p {
-        margin-top: 0;
-        margin-bottom: 0;
+        margin: 0;
 }
 
 img {
@@ -33,12 +32,42 @@ img {
         max-width: 100%;
 }
 
-/* HEADER */
-
 .container {
         max-width: 1158px;
         margin: 0 auto;
         padding: 0 15px;
+}
+
+/* HEADER */
+.header {
+        border-bottom: 1px solid #e7e9fc;
+}
+
+.header-logo {
+        padding: 24px 0;
+        margin-right: 76px;
+}
+
+.header-container {
+        display: flex;
+        align-items: center;
+}
+
+.navigation {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        padding: 24px 0; 
+}
+
+.page-nav {
+        display: flex;
+        align-items: center;
+}
+
+.page-contact {
+        display: flex;
+        align-items: center;
 }
 
 .logotype {
