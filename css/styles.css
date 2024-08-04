@@ -54,10 +54,7 @@ img {
 }
 
 .navigation {
-        display: flex;
-        align-items: center;
-        gap: 40px;
-        padding: 24px 0; 
+        align-items: center; 
 }
 
 .page-nav {
@@ -68,6 +65,12 @@ img {
 .page-contact {
         display: flex;
         align-items: center;
+}
+
+.page-contact {
+        display: flex;
+        align-items: center;
+        gap: 40px;
 }
 
 .logotype {
@@ -86,6 +89,8 @@ img {
 }
 
 .nav-buton {
+        display: block;
+        padding: 24px 0;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -100,6 +105,7 @@ img {
 
 .adres {
         font-style: normal;
+        margin-left: auto;
 }
 
 .adres-nav {
