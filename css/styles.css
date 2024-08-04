@@ -53,6 +53,7 @@ img {
 }
 
 .navigation {
+        display: flex;
         align-items: center; 
 }
 
@@ -124,6 +125,9 @@ img {
 .page-hero {
         display: flex;
         align-items: center;
+        max-width: 1440px;
+        min-height: 600px;
+        align-items: center;
 }
 
 .section-one {
@@ -136,6 +140,10 @@ img {
         letter-spacing: 0.02em;
         text-align: center;
         color: #ffffff;
+
+        display: flex;
+        align-items: center;
+        min-width: 496px;
         padding-top: 188px;
         padding-bottom: 48px;
 }
@@ -149,7 +157,8 @@ img {
         letter-spacing: 0.04em;
             color: #ffffff;
             background-color: #4D5AE5;
-
+            
+        display: flex;
         border-radius: 4px;
         padding: 16px 32px;
         width: 169px;
