@@ -123,21 +123,13 @@ img {
 
 /* SECTION 1 MAIN */
 .page-hero {
-        display: flex;
-        align-items: center;
         max-width: 1440px;
         min-height: 600px;
-        align-items: center;
+        margin: 0 auto;
 }
 
 .section-one {
         background-color: #2e2f42;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 188px;
-        padding-bottom: 188px;
-        text-align: center;
 }
 
 .text-main {
@@ -149,10 +141,12 @@ img {
 
         display: flex;
         align-items: center;
-        min-width: 496px;
+        justify-content: center;
+        max-width: 496px;
         min-height: 120px;
         padding-top: 188px;
         padding-bottom: 48px;
+        margin: 0 auto;
 }
 
 
@@ -167,16 +161,10 @@ img {
 
         display: block;
         margin: 0 auto;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: row;
-        margin-top: 48px;
         border-radius: 4px;
         border: none;
         padding: 16px 32px;
         min-width: 169px;
-        align-items: center;
-        flex-wrap: nowrap;
 }
 
 .button-main:focus,
@@ -187,8 +175,28 @@ img {
 
 /* SECTION 2 ABOUT */
 
+.page-about {
+        max-width: 1128px;
+        min-height: 104px;
+        margin: 0 auto;
+        padding-top: 120px;
+        padding-bottom: 116px;
+}
+
 .about-text {
         visibility: hidden;
+}
+
+.about-ul {
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        gap: 24px;
+        margin: 0 auto;
+}
+
+.about-li {
+        width: calc((100% - 72px)/4); 
 }
         
 .name-about {
@@ -197,6 +205,12 @@ img {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
+
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 0;
+        margin-top: 0;
+        padding-bottom: 8px;
 }
 
 .text-about {
@@ -204,6 +218,9 @@ img {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+
+        display: block;
+        margin: 0 auto;
 }
 
 /* SECTION 3 OUR TEAM */
