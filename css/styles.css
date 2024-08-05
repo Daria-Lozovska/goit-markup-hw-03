@@ -135,6 +135,8 @@ img {
 .section-one {
         background-color: #2e2f42;
         text-align: center;
+        padding-top: 188px;
+        padding-bottom: 188px;
 }
 
 .text-main {
@@ -149,7 +151,6 @@ img {
         justify-content: center;
         max-width: 496px;
         min-height: 120px;
-        padding-top: 188px;
         padding-bottom: 48px;
         margin: 0 auto;
 }
@@ -328,7 +329,7 @@ img {
         padding: 0;
         margin: 0;
         margin-bottom: 32px;
-}
+} 
 
 /* SECTION 4 OUR PORTFOLIO */
 .section-four {
