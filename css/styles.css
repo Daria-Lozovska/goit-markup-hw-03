@@ -130,6 +130,8 @@ img {
 
 .section-one {
         background-color: #2e2f42;
+
+        padding: 188px 0;
 }
 
 .text-main {
@@ -158,6 +160,7 @@ img {
         letter-spacing: 0.04em;
             color: #ffffff;
             background-color: #4D5AE5;
+        cursor: pointer;
 
         display: block;
         margin: 0 auto;
@@ -174,6 +177,9 @@ img {
 }
 
 /* SECTION 2 ABOUT */
+.section-two {
+        padding: 120px 0;
+}
 
 .page-about {
         max-width: 1128px;
@@ -183,9 +189,19 @@ img {
         padding-bottom: 116px;
 }
 
-.about-text {
-        visibility: hidden;
-}
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+} 
 
 .about-ul {
         display: flex;
@@ -209,6 +225,7 @@ img {
         display: flex;
         justify-content: flex-start;
         margin-left: 0;
+        margin-bottom: 8px;
         margin-top: 0;
         padding-bottom: 8px;
 }
@@ -226,6 +243,7 @@ img {
 /* SECTION 3 OUR TEAM */
 .page-team {
         padding: 0;
+        padding-top: 120px;
         padding-bottom: 120px;
         margin: 0 auto;
 }
@@ -250,9 +268,9 @@ img {
         align-items: center;
         justify-content: center;
         margin: 0 auto;
+        margin-bottom: 72px;
         padding: 0;
         padding-top: 124px;
-        padding-bottom: 72px;
 }
 
 .ul-box-user {
@@ -276,7 +294,7 @@ img {
 .text-card {
         display: flex;
         margin: 0 auto;
-        padding: 0;
+        padding: 32px 0;
         width: 232px;
         min-height: 56px;
         flex-direction: column;
@@ -321,6 +339,8 @@ img {
 .section-four {
         width: 1128px;
         height: 1000px;
+        padding-top: 120px;
+        padding-bottom: 120px;
 }
 
 .page-employee {
@@ -343,7 +363,7 @@ img {
 
         display: flex;
         margin: 0 auto;
-        margin-bottom: 24px;
+        margin-bottom: 72px;
         justify-content: flex-start;
         align-items: center;
 }
@@ -357,6 +377,7 @@ img {
         gap: 24px;
         margin: 0 auto;
         padding: 0;
+        row-gap: 48px;
 }
 
 .box-portfolio {
@@ -387,6 +408,8 @@ img {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
+
+        margin-bottom: 8px
 }
 
 .box-what-about {
@@ -409,6 +432,7 @@ img {
 
         width: 1440px;
         height: 312px;
+        padding: 100px 0;
 }
 
 .page-footer {
@@ -441,4 +465,5 @@ img {
         margin: 0;
         padding: 0;
         margin-bottom: 16px;
+        display: inline-block;
 }
