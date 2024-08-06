@@ -26,7 +26,7 @@ ul, ol {
         padding: 0;
 }
 
-h1,h2,h3,h4,h5,h6 p {
+h1,h2,h3,h4,h5,h6, p {
         margin: 0;
 }
 
@@ -150,9 +150,8 @@ img {
         align-items: center;
         justify-content: center;
         max-width: 496px;
-        min-height: 120px;
-        padding-bottom: 48px;
         margin: 0 auto;
+        margin-bottom: 48px;
 }
 
 
@@ -221,12 +220,7 @@ img {
         letter-spacing: 0.02em;
         color: #2E2F42;
 
-        display: flex;
-        justify-content: flex-start;
-        margin-left: 0;
         margin-bottom: 8px;
-        margin-top: 0;
-        padding-bottom: 8px;
 }
 
 .text-about {
@@ -248,9 +242,6 @@ img {
 
 .section-three {
         background-color: #F4F4FD;
-        width: 1440px;
-        height: 732px;
-        margin: 0 auto;
 }
 
 .text-team {
@@ -262,8 +253,6 @@ img {
         text-transform: capitalize;
         color: #2E2F42;
 
-        display: flex;
-        align-items: center;
         margin: 0 auto;
         padding: 0;
         text-transform: capitalize;
@@ -281,23 +270,15 @@ img {
 .box-user {
         background: #FFFFFF;
 
-        display: flex;
         border-radius: 0 0 4px 4px;
         width: calc((100% - 72px)/4);
-        flex-direction: column;
 }
 
 .text-card {
-        display: flex;
-        margin: 0 auto;
+
         padding: 0;
-        width: 232px;
-        min-height: 56px;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-end;
-        align-content: center;
         padding-bottom: 32px;
+        padding-top: 32px;
 }
 
 .name-user {
@@ -324,13 +305,6 @@ img {
         padding: 0;
 }
 
-.page-team img {
-        max-height: 260px; 
-        object-fit: cover; 
-        padding: 0;
-        margin: 0;
-        margin-bottom: 32px;
-} 
 
 /* SECTION 4 OUR PORTFOLIO */
 .section-four {
@@ -341,7 +315,6 @@ img {
 .page-employee {
         max-width: 1158px;
         padding: 0 15px;
-        margin: 0 auto;
 }
 
 .text-portfolio {
@@ -376,10 +349,6 @@ img {
 }
 
 .div-box {
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
-        flex-direction: column;
         border-top: none;
         border-bottom: 1px solid #e7e9fc;
         border-left: 1px solid #e7e9fc;
@@ -404,8 +373,6 @@ img {
         letter-spacing: 0.02em;
         color: #434455;
 
-        text-align: center;
-        margin: 0;
 }
 
 .img-port {
